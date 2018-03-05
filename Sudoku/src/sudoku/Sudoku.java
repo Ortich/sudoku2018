@@ -50,57 +50,58 @@ public class Sudoku {
 	// TODO code application logic here
 	Sudoku prueba = new Sudoku();
 
-//	int matrizPrueba[][]={{1,2,3},{4,5,6},{7,8,9}};
-//	System.out.println("{1,2,3},{4,5,6},{7,8,9}-TRUE");
-//	System.out.println(prueba.chequeaSudoku(matrizPrueba));
-//	
-//	int matrizPrueba2[][]={{4,1,3},{2,7,5},{9,6,8}};
-//	System.out.println("{4,1,3},{2,7,5},{9,6,8}- TRUE");
-//	System.out.println(prueba.chequeaSudoku(matrizPrueba2));
-//	
-//	int matrizPrueba3[][]={{4,1,3},{4,7,5},{9,6,8}};
-//	System.out.println("{4,1,3},{4,7,5},{9,6,8}-FALSE");
-//	System.out.println(prueba.chequeaSudoku(matrizPrueba3));
-//
-//	int matrizPrueba4[][] = {{4, 1, 31}, {2, 7, 5}, {9, 6, 8}};
-//	System.out.println("{4,1,31},{2,7,5},{9,6,8}-FALSE");
-//	System.out.println(prueba.chequeaSudoku(matrizPrueba4));
-//	int matrizPrueba5[][]={{4,1,31},{31,7,5},{9,6,8}};
-//	System.out.println("{4,1,31},{31,7,5},{9,6,8}-FALSE");
-//	System.out.println(prueba.chequeaSudoku(matrizPrueba5));
-//	
-//	int matrizPrueba6[][]={{4,1,31},{7,31,5},{9,6,8}};
-//	System.out.println("{4,1,31},{7,31,5},{9,6,8}-FALSE");
-//	System.out.println(prueba.chequeaSudoku(matrizPrueba6));
-//	
-//	int matrizPrueba7[][]={{4,1,31},{5,7,31},{9,6,8}};
-//	System.out.println("{4,1,31},{5,7,31},{9,6,8}-FALSE");
-//	System.out.println(prueba.chequeaSudoku(matrizPrueba7));
-//	
-//	int matrizPrueba8[][]={{4,1,31},{5,7,9},{31,6,8}};
-//	System.out.println("{4,1,31},{5,7,9},{31,6,8}-FALSE");
-//	System.out.println(prueba.chequeaSudoku(matrizPrueba8));
-//	
-//	int matrizPrueba9[][]={{4,1,31},{5,7,9},{8,6,31}};
-//	System.out.println("{4,1,31},{5,7,9},{8,6,31}-FALSE");
-//	System.out.println(prueba.chequeaSudoku(matrizPrueba9));
-//
-//	int matrizPrueba10[][]={{4,1,2},{5,7},{8,6,31}};
-//	System.out.println("{4,1,2},{5,7},{8,6,31}-FALSE");
-//	System.out.println(prueba.chequeaSudoku(matrizPrueba10));
-//	
-//	int matrizPrueba11[][]={{4,1,2},{5,7,9,3},{8,6,31}};
-//	System.out.println("{4,1,2},{5,7,9,3},{8,6,31}-FALSE");
-//	System.out.println(prueba.chequeaSudoku(matrizPrueba11));
-//
-//	int matrizPrueba12[][]={{4,-1,2},{5,7,9,3},{8,6,31}};
-//	System.out.println("{4,-1,2},{5,7,9,3},{8,6,31}-FALSE");
-//	System.out.println(prueba.chequeaSudoku(matrizPrueba12));
-//	
-//	int matrizPrueba13[][]={};
-//	System.out.println("{4,1,2},{5,7,9,3},{8,6,31}-FALSE");
-//	System.out.println(prueba.chequeaSudoku(matrizPrueba13));
-//
+	int matrizPrueba[][]={{1,2,3},{4,5,6},{7,8,9}};
+	System.out.println("{1,2,3},{4,5,6},{7,8,9}-TRUE");
+	System.out.println(prueba.chequeaSudoku(matrizPrueba));
+	
+	int matrizPrueba2[][]={{4,1,3},{2,7,5},{9,6,8}};
+	System.out.println("{4,1,3},{2,7,5},{9,6,8}- TRUE");
+	System.out.println(prueba.chequeaSudoku(matrizPrueba2));
+	
+	int matrizPrueba3[][]={{4,1,3},{4,7,5},{9,6,8}};
+	System.out.println("{4,1,3},{4,7,5},{9,6,8}-FALSE");
+	System.out.println(prueba.chequeaSudoku(matrizPrueba3));
+
+	int matrizPrueba4[][] = {{4, 1, 31}, {2, 7, 5}, {9, 6, 8}};
+	System.out.println("{4,1,31},{2,7,5},{9,6,8}-FALSE");
+	System.out.println(prueba.chequeaSudoku(matrizPrueba4));
+	
+	int matrizPrueba5[][]={{4,1,31},{31,7,5},{9,6,8}};
+	System.out.println("{4,1,31},{31,7,5},{9,6,8}-FALSE");
+	System.out.println(prueba.chequeaSudoku(matrizPrueba5));
+	
+	int matrizPrueba6[][]={{4,1,31},{7,31,5},{9,6,8}};
+	System.out.println("{4,1,31},{7,31,5},{9,6,8}-FALSE");
+	System.out.println(prueba.chequeaSudoku(matrizPrueba6));
+	
+	int matrizPrueba7[][]={{4,1,31},{5,7,31},{9,6,8}};
+	System.out.println("{4,1,31},{5,7,31},{9,6,8}-FALSE");
+	System.out.println(prueba.chequeaSudoku(matrizPrueba7));
+	
+	int matrizPrueba8[][]={{4,1,31},{5,7,9},{31,6,8}};
+	System.out.println("{4,1,31},{5,7,9},{31,6,8}-FALSE");
+	System.out.println(prueba.chequeaSudoku(matrizPrueba8));
+	
+	int matrizPrueba9[][]={{4,1,31},{5,7,9},{8,6,31}};
+	System.out.println("{4,1,31},{5,7,9},{8,6,31}-FALSE");
+	System.out.println(prueba.chequeaSudoku(matrizPrueba9));
+
+	int matrizPrueba10[][]={{4,1,2},{5,7},{8,6,31}};
+	System.out.println("{4,1,2},{5,7},{8,6,31}-FALSE");
+	System.out.println(prueba.chequeaSudoku(matrizPrueba10));
+	
+	int matrizPrueba11[][]={{4,1,2},{5,7,9,3},{8,6,31}};
+	System.out.println("{4,1,2},{5,7,9,3},{8,6,31}-FALSE");
+	System.out.println(prueba.chequeaSudoku(matrizPrueba11));
+
+	int matrizPrueba12[][]={{4,-1,2},{5,7,9,3},{8,6,31}};
+	System.out.println("{4,-1,2},{5,7,9,3},{8,6,31}-FALSE");
+	System.out.println(prueba.chequeaSudoku(matrizPrueba12));
+	
+	int matrizPrueba13[][]={};
+	System.out.println("{4,1,2},{5,7,9,3},{8,6,31}-FALSE");
+	System.out.println(prueba.chequeaSudoku(matrizPrueba13));
+
     }
 
 }
